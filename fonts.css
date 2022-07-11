@@ -1,0 +1,78 @@
+/* font sizes */
+.f-28{
+    font-size: 28px;
+}
+
+.f-48{
+    font-size: 48px;
+}
+.f-80{
+    font-size: 80px;
+}
+.f-20{
+    font-size: 20px;
+    z-index: 100;
+}
+
+/* font colors */
+.text-green{
+    color: #53B05C;
+}
+.f-light{  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 80px;
+line-height: 80px;
+letter-spacing: 0.065em;
+text-transform: uppercase;
+
+color: rgba(83, 176, 92, 0.27);
+
+opacity: 0.72
+
+}
+
+
+/* font weights */
+.w-300{
+    font-weight: 300;
+}
+.w-700{
+    font-weight: 700;
+}
+.w-600{
+    font-weight: 600;
+}
+.family-fair{
+    font-family: 'Playfair Display';
+}
+
+
+
+/* background */
+.sec-1{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: 60;
+}
+.circle-1{
+    position: absolute;
+   right: 0px;
+    top: 10px;
+    z-index: 60;
+}
+.circle-2{
+    position: absolute;
+   left: 0px;
+    top: 0px;
+    z-index: 60;
+}
+.ls{
+    letter-spacing: 0.495em !important;
+
+}
