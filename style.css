@@ -5,6 +5,7 @@ body{
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(229, 229, 229, 0.209);
 }
 .header{
     background-image: url('./images/Screenshot (5) 1.png');
@@ -87,10 +88,16 @@ color: #FFFFFF;
 .steps-text p{
 text-transform:uppercase;
 }
+.steps-img img{
+    width: 497px;
+    height: auto;
+}
 .nmt-50{
     margin-top: -150px;
 }
-
+.steps-row{
+    margin-top: 80px;
+}
 /* percentage */
 .percentage{
     width: 100vw !important;

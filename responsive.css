@@ -3,6 +3,9 @@
         font-size: 50px;
         line-height: normal !important;
     }
+    .heading-secondary{
+    font-size: 20px;
+    }
 }
 @media only screen and (max-width:991px){
     .header-text{
@@ -26,7 +29,7 @@
     }
     .steps-text{
         padding: 0px 10px;
-        width: 80% !important;
+        width: 100% !important;
     }
     .steps-img{
         margin-bottom: 80px !important;
@@ -40,11 +43,22 @@
     .m-md-b2{
         margin-bottom: 10px !important;
     }
+    .steps-row{
+        justify-content: center !important;
+        margin-top: 0px !important;
+    }
+    .steps-img{
+        display: flex;
+        justify-content: center;
+    }
+    .margin-start{
+        margin-left: auto;
+    }
 }
 
 
 @media only screen and (max-width:479px){
-   
+    
     .main-text h1{
     font-size: 50px;
   
