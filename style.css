@@ -271,3 +271,10 @@ benifits
 .border-radius{
     border-radius: 5px !important;
 }
+.solution-header{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/image\ 250.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
