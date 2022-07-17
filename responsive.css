@@ -1,119 +1,201 @@
-@media only screen and (max-width:1100px){
-    .f-80{
+@media only screen and (max-width:1100px) {
+    .f-80 {
         font-size: 50px;
         line-height: normal !important;
     }
-    .heading-secondary{
-    font-size: 20px;
+
+    .heading-secondary {
+        font-size: 20px;
+    }
+
+    .main-text-2 h1 {
+        font-size: 60px;
+
     }
 }
-@media only screen and (max-width:991px){
-    .header-text{
-      margin-top: 10px;
+
+@media only screen and (max-width:991px) {
+    .f-55{
+        font-size: 40px;
     }
-    .header-text .text{
-        margin: 30px  0px!important;
-      }
-      .header{
-       height: 100%;
+    .header-text {
+        margin-top: 10px;
     }
-    .main-text h1{
-    font-size: 80px;
-  
+
+    .header-text .text {
+        margin: 30px 0px !important;
     }
-    .heading-secondary{
-       display: none;
-       }
-    br{
+
+    .header {
+        height: 100%;
+    }
+
+    .main-text h1 {
+        font-size: 80px;
+
+    }
+
+    .input {
+        font-size: 18px;
+    }
+
+    .input::placeholder {
+        font-size: 18px;
+
+    }
+
+    .heading-secondary {
         display: none;
     }
-    .steps-text{
+
+    br {
+        display: none;
+    }
+
+    .steps-text {
         padding: 0px 10px;
         width: 100% !important;
     }
-    .steps-img{
+
+    .steps-img {
         margin-bottom: 80px !important;
     }
-    .justify-center-sm{
+
+    .justify-center-sm {
         justify-content: center !important;
     }
-    .m-md-b{
+
+    .m-md-b {
         margin-bottom: 30px !important;
     }
-    .m-md-b2{
+
+    .m-md-b2 {
         margin-bottom: 10px !important;
     }
-    .steps-row{
+
+    .steps-row {
         justify-content: center !important;
         margin-top: 0px !important;
     }
-    .steps-img{
+
+    .steps-img {
         display: flex;
         justify-content: center;
     }
-    .margin-start{
+
+    .margin-start {
         margin-left: auto;
+    }
+
+    .mt-200 {
+        margin-top: 100px;
+    }
+
+    .f-60 {
+        font-size: 40px;
+        line-height: normal !important;
     }
 }
 
 
-@media only screen and (max-width:479px){
-    
-    .main-text h1{
-    font-size: 50px;
-  
+@media only screen and (max-width:479px) {
+    .mt-200 {
+        margin-top: 10px;
     }
-    .f-80{
+
+    .main-text h1 {
+        font-size: 50px;
+
+    }
+
+    .main-text-2 h1 {
+        font-size: 40px;
+
+    }
+
+    .input {
+        font-size: 14px;
+    }
+
+    .input::placeholder {
+        font-size: 14px;
+
+    }
+
+    .f-33 {
         font-size: 25px;
     }
-    .last-text{
+
+    .f-80 {
+        font-size: 25px;
+    }
+
+    .last-text {
         font-size: 30px;
         line-height: normal;
     }
-    .footer-list{
+
+    .footer-list {
         flex-direction: column !important;
-    }
-    .heading-secondary{
-     text-align: center;
-    }
-    .text{
-        text-align: center;
-    }
-    .f-48{
-        font-size: 35px;
-    }
-    .p-responsive{
-        padding: 0px 0px !important;
-        
     }
 
-    br{
+    .heading-secondary {
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .f-48 {
+        font-size: 35px;
+    }
+
+    .p-responsive {
+        padding: 0px 0px !important;
+
+    }
+
+    br {
         display: none !important;
     }
-    .f-light{
- line-height: normal;
- margin-top: 20px;
+
+    .f-light {
+        line-height: normal;
+        margin-top: 20px;
     }
-    .steps-img{
+
+    .steps-img {
         margin-bottom: 80px !important;
     }
-    .sm-column{
+
+    .sm-column {
         flex-direction: column !important;
     }
-    .steps-text{
+
+    .steps-text {
         width: 100% !important;
     }
-    .ls2{
+
+    .ls2 {
         white-space: nowrap;
     }
-    .mt-40{
+
+    .mt-40 {
         margin-top: 40px;
     }
-    .no-mr{
+
+    .no-mr {
         margin-top: 0px !important;
     }
-    .no-m{
+
+    .no-m {
         margin: 0px !important;
         padding: 0px !important;
     }
+
+    .f-55 {
+        font-size: 30px;
+    }
+
 }

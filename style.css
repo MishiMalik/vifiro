@@ -190,3 +190,84 @@ white-space:nowrap;
     border-radius: 20px;
     border: 3px solid transparent;
 } */
+
+
+
+/* ----------------------------------
+about Us
+---------------------------------- */
+.about-header{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/getty_537417802_348333\ 1.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.main-text-2 h1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 100px;
+line-height: 125%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.input{
+    width: 100%;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    outline: none !important;
+    padding: 7px 0px;
+    background-color: transparent !important;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.065em;
+    text-transform: uppercase;
+    color: #979797;
+
+}
+.input::placeholder{
+    font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.065em;
+text-transform: uppercase;
+color: #979797;
+}
+.input:active{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.green-btn{
+    font-weight: 500;
+    font-size: 20;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    text-transform: uppercase; 
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;   
+    background: #53B05C;
+    border-radius: 45px;  
+    border: none ;  
+}
+/* -----------------------------
+benifits
+---------------------------- */
+.border-bottom{
+    border-bottom: 1px solid #E9E9E9;
+}
+.greener-tomorrow{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/depositphotos_76782389-stock-photo-summer-mountain-lake-forrest\ 1.png');
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
+.border-radius{
+    border-radius: 5px !important;
+}
