@@ -34,6 +34,10 @@
         font-size: 80px;
 
     }
+    .main-text-2 h1 {
+        font-size: 50px;
+
+    }
 
     .input {
         font-size: 18px;
@@ -94,6 +98,16 @@
     .f-60 {
         font-size: 40px;
         line-height: normal !important;
+    }
+    .text-end{
+        text-align: center !important;
+    }
+    .navbar-collapse{
+        position: absolute !important;
+        top: 60px !important;
+        background-color: rgba(0, 0, 0, 0.781);
+        width: 93vw;
+        padding: 10px;
     }
 }
 

@@ -20,7 +20,7 @@
 }
 .f-20{
     font-size: 20px;
-    z-index: 100;
+    z-index: 1;
 }
 .f-60{
     font-size: 60px;
@@ -68,6 +68,9 @@ opacity: 0.72;
 }
 .mt-200{
     margin-top: 200px;
+}
+.mt-150{
+    margin-top: 10px;
 }
 .f-35{
     font-weight: 300;
