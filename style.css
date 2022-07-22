@@ -7,6 +7,152 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(229, 229, 229, 0.209);
 }
+
+/* -----------------------------------
+Fonts styles 
+---------------------------------------*/
+.f-18{
+    font-size: 18px;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-33{
+    font-size: 33px;
+}
+.f-28{
+    font-size: 28px;
+}
+
+.f-48{
+    font-size: 48px;
+}
+.f-80{
+    font-size: 70px;
+}
+.f-20{
+    font-size: 20px;
+    z-index: 1;
+}
+.f-60{
+    font-size: 55px;
+    line-height: 55;
+}
+.f-55{
+    font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 114%;
+/* or 63px */
+
+text-align: center;
+letter-spacing: 0.065em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+/* font colors */
+.text-green{
+    color: #53B05C;
+}
+.f-light{  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+/* font-size: 80px; */
+line-height: 80px;
+letter-spacing: 0.065em;
+text-transform: uppercase;
+
+color: rgba(83, 176, 92, 0.27);
+
+opacity: 0.72
+
+}
+.f-green{
+    font-weight: 600;
+font-size: 55px;
+line-height: 114%;
+letter-spacing: 0.065em;
+text-transform: uppercase;
+color: #53B05C;
+opacity: 0.72;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.mt-150{
+    margin-top: 10px;
+}
+.f-35{
+    font-weight: 300;
+font-size: 35px;
+line-height: 52px;
+/* identical to box height */
+
+letter-spacing: 0.065em;
+text-transform: uppercase;
+
+color: #111111;
+
+}
+
+
+/* font weights */
+.w-300{
+    font-weight: 300;
+}
+.w-700{
+    font-weight: 700;
+}
+.w-600{
+    font-weight: 600;
+}
+.family-fair{
+    font-family: 'Playfair Display';
+}
+
+
+
+/* background */
+.sec-1{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    z-index: 60;
+}
+.circle-1{
+    position: absolute;
+   right: 0px;
+    top: 10px;
+    z-index: 60;
+}
+.circle-center{
+    position: absolute;
+    right: 20%;
+    top: 100px;
+    z-index: 60;
+}
+.circle-2{
+    position: absolute;
+   left: 0px;
+    top: 0px;
+    z-index: 60;
+}
+.ls{
+    letter-spacing: 0.495em !important;
+
+}
+
+
+
+/* -----------------------------------
+Home page
+------------------------------------ */
 .header{
     background-image: url('./images/Screenshot (5) 1.png');
     height: 100vh;
