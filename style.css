@@ -154,12 +154,25 @@ color: #111111;
 Home page
 ------------------------------------ */
 .header{
-    background-image: url('./images/Screenshot (5) 1.png');
+    /* background-image: url('./images/Screenshot (5) 1.png');
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
+.iframe{
+    min-height: 800px !important;
+    width: 100%;
+    position: relative;
+}
+
+.iframe .modal-header{
+    display: none !important;
+}
+.iframe .modal-content{
+    min-height: 100vh !important;
+}
+
 .navbar{
     position: relative;
     z-index: 100;
@@ -171,7 +184,7 @@ Home page
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.04em; 
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
 }
 .nav-link:hover{
     color: #53B05C !important;
