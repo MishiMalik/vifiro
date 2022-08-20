@@ -176,7 +176,7 @@
         </section>
 
        
-        <section class="sec-1" data-aos="fade-up">
+        <section class="sec-1 mb-5 pb-5" data-aos="fade-up">
             <img src="images/Ellipse 404.svg" alt="" class="img-fluid circle">
             <div class="container-fluid">
                 <div class="p-responsive ">
@@ -185,7 +185,7 @@
                         <div class="col-lg-5 mx-auto col-md-12 col-sm-11  mt-200 order-lg-first order-last">
 
                             <div class="steps-img mx-auto">
-                                <img src="images/fw.png" alt="" class="img-fluid ">
+                                <img src="images/fw.png" alt="" class="img-fluid z-70">
                             </div>
                         </div>
 
@@ -216,10 +216,10 @@
         </section>
 
 
-        <section class="sec-1" data-aos="fade-up">
+        <section class="sec-1 mt-5" data-aos="fade-up">
             <div class="container-fluid">
                 <div class="p-responsive ">
-                    <div class="row align-items-center mt-3">
+                    <div class="row align-items-center ">
 
                         <div class="col-lg-7 col-md-12 col-sm-11  d-flex justify-content-center align-items-center ">
                             <div class=" my-auto">
@@ -237,9 +237,10 @@
 
                         <div class="col-lg-5 col-md-12 col-sm-11 ">
 
-                            <div class="steps-img ">
-                                <img src="images/Component 1.png" alt="" class="img-fluid ">
-                            </div>
+<!--                            <div class="steps-img ">-->
+<!--                                <img src="images/Component 1.png" alt="" class="img-fluid ">-->
+<!--                            </div>-->
+                            <div id="wearfits_viewer" style="width:100%; height:100%"></div>
                         </div>
 
 
@@ -299,6 +300,30 @@
         AOS.init({
             duration: 1300,
         });
+    </script>
+
+    <script type="text/javascript" src="https://wearfits-cdn.azurewebsites.net/static/js/wearfits.bundle.min.js?v=220624"></script>
+
+    <script>
+
+        wearfits.showRayTracingButton = false;
+
+        wearfits.showARButton = true;
+
+        wearfits.showMaterialPresets = false;
+
+        wearfits.controlsType = "MOUSE_POSITION";
+
+        wearfits.load("f047b708df18a56738ac8428c2ec1b8b");
+        wearfits.origin = "https://dev.wearfits.com";
+wearfits.canvas_container_id = "wearfits_viewer";
+wearfits.controlsType = "MOUSE_POSITION";
+wearfits.wearfitsLogoUrl = null;
+wearfits.showARButton = true;
+wearfits.showRayTracingButton = false;
+wearfits.loadByHashAndId("a1ffc7a0baf0d20f3c779758174323df", "Melia_38", false, "Rosa czarna").then( () => {
+    show("m3")
+});
     </script>
 
 </body>

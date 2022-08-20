@@ -448,3 +448,15 @@ benifits
     background-size: cover;
     background-position: center;
 }
+
+
+#wearfits_viewer{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    display:block !important
+}
+.z-70{
+    position: relative;
+    z-index: 70;
+}
