@@ -117,6 +117,9 @@
         width: 93vw;
         padding: 10px;
     }
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+    }
 }
 
 

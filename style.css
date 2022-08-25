@@ -156,13 +156,20 @@ color: #111111;
 /* -----------------------------------
 Home page
 ------------------------------------ */
-/* .header{ */
+.header{ 
     /* background-image: url('./images/Screenshot (5) 1.png');
     height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center; */
-/* } */
+    /* background-color: #959595; */
+ } 
+ .navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+.navbar-light .navbar-nav .active {
+    color: #53B05C !important;
+}
 .iframe{
     min-height: 800px !important;
     width: 100%;
@@ -193,6 +200,7 @@ Home page
     line-height: 18px;
     letter-spacing: 0.04em; 
     color: #FFFFFF ;
+    text-transform: uppercase;
 }
 .nav-link:hover{
     color: #53B05C !important;
@@ -202,7 +210,7 @@ Home page
 }
 .nav-btn{
     background: #53B05C;
-    border-radius: 412px;
+    border-radius: 6px;
     padding: 4px 15px;
 }
 .nav-btn a{
@@ -305,6 +313,7 @@ line-height: 15px;
 color: #454B51;
 text-decoration: none;
 white-space:nowrap;
+text-transform: uppercase;
  }
  .text-copy {
     font-style: normal;
@@ -447,7 +456,14 @@ benifits
     border-radius: 5px !important;
 }
 .solution-header{
-    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/image\ 250.png');
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/EXPOSURE_CENTER_FEATURED_tip2-sethkhughes-landscape-photo.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.benifits-header{
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('./images/HORIZON-2.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -474,4 +490,7 @@ benifits
 }
 .foot-img{
     border-radius: 6px;
+}
+.no-transform{
+    text-transform: none !important;
 }
