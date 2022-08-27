@@ -176,9 +176,9 @@ Home page
     height: 100%;
  }
 
- .navbar-light .navbar-nav .nav-link {
+ /* .navbar-light .navbar-nav .nav-link {
     color: black !important;
-}
+} */
 .navbar-light .navbar-nav .active {
     color: #53B05C !important;
 }
@@ -211,7 +211,7 @@ Home page
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.04em; 
-    color: #FFFFFF ;
+    color: #FFFFFF;
     text-transform: uppercase;
 }
 .nav-link:hover{
@@ -227,14 +227,14 @@ Home page
     border: none !important;
     outline: none !important;
 }
-.nav-btn a{
+.nav-btn .nav-link{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 21px;
 text-align: center;
-color: #FFFFFF;
+color: #FFFFFF !important;
 }
 .nav-btn:hover{
     background-color: white;
