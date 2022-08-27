@@ -157,6 +157,7 @@ color: #111111;
 Home page
 ------------------------------------ */
 .header{ 
+    height: 100vh;
     /* background-image: url('./images/Screenshot (5) 1.png');
     height: 100vh;
     width: 100%;
@@ -164,6 +165,17 @@ Home page
     background-position: center; */
     /* background-color: #959595; */
  } 
+ .Td-view{
+    height: 90% !important;
+    
+ }
+ .Td-row{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100%;
+ }
+
  .navbar-light .navbar-nav .nav-link {
     color: black !important;
 }
@@ -212,6 +224,8 @@ Home page
     background: #53B05C;
     border-radius: 6px;
     padding: 4px 15px;
+    border: none !important;
+    outline: none !important;
 }
 .nav-btn a{
     font-family: 'Poppins';
@@ -272,6 +286,7 @@ text-transform:uppercase;
 .steps-img img{
     width: 497px;
     height: auto;
+    border-radius: 6px;
 }
 .nmt-50{
     margin-top: -150px;
@@ -481,8 +496,19 @@ benifits
     position: relative;
     z-index: 70;
 }
+/* .Td-view{
+    position: relative;
+}
+.ipad{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+} */
 .iframe3{
-    height: 450px !important;
+    height: 350px !important;
     width: 100%;
 }
 .vh-100{
