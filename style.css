@@ -508,11 +508,11 @@ benifits
     width: 100%;
 } */
 .iframe3{
-    height:100vh !important;
+    height:calc(100vh - 102px) !important;
     width: 100%;
 }
 .vh-100{
-    height: 100vh;
+    height:100vh ;
 }
 .foot-img{
     border-radius: 6px;
