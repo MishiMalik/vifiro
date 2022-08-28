@@ -239,6 +239,10 @@ color: #FFFFFF !important;
 .nav-btn:hover{
     background-color: white;
 }
+.nav-btn:hover .nav-link{
+  
+color: #53B05C !important;
+}
 .main-text h1{
     font-family: 'Playfair Display';
 font-style: normal;
