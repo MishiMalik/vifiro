@@ -5,7 +5,8 @@ body{
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: rgba(229, 229, 229, 0.209);
+    /* background-color: rgba(229, 229, 229, 0.209); */
+    background-color: white;
 }
 
 /* -----------------------------------
@@ -354,7 +355,7 @@ text-transform: uppercase;
     top: 0;
     transform-origin: center right;
    background-color: transparent !important;
-    width:7px;
+    width:10px;
   }
    
   body::-webkit-scrollbar-track {
@@ -373,7 +374,7 @@ text-transform: uppercase;
     position: absolute;
     right: 0;
     top: 0;
-    width: 7px;
+    width: 10px;
   }
   /* ::-webkit-scrollbar {
     background-color: transparent;
