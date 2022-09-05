@@ -1,17 +1,20 @@
-@media only screen and (min-width:1500px){
-    .container-fluid{
+@media only screen and (min-width:1500px) {
+    .container-fluid {
         max-width: 1440px;
         margin: 0px auto;
     }
 }
-@media only screen and (min-width:1300px){
-    .modal-header{
+
+@media only screen and (min-width:1300px) {
+    .modal-header {
         display: none !important;
     }
-    .modal-content{
+
+    .modal-content {
         min-height: 100vh !important;
     }
 }
+
 @media only screen and (max-width:1100px) {
     .f-80 {
         font-size: 50px;
@@ -29,9 +32,10 @@
 }
 
 @media only screen and (max-width:991px) {
-    .f-55{
+    .f-55 {
         font-size: 40px;
     }
+
     .header-text {
         margin-top: 10px;
     }
@@ -48,6 +52,7 @@
         font-size: 80px;
 
     }
+
     .main-text-2 h1 {
         font-size: 50px;
 
@@ -113,16 +118,25 @@
         font-size: 40px;
         line-height: normal !important;
     }
-    .text-end{
+
+    .text-end {
         text-align: center !important;
     }
-    .navbar-collapse{
+
+    .navbar-collapse {
         position: absolute !important;
-        top: 60px !important;
+        top: 85px !important;
+        right: 0;
         background-color: rgba(0, 0, 0, 0.781);
-        width: 93vw;
+        width: 100%;
         padding: 10px;
     }
+
+    .nav-btn {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+
     .navbar-light .navbar-nav .nav-link {
         color: white !important;
     }
@@ -130,6 +144,10 @@
 
 
 @media only screen and (max-width:479px) {
+    .iframe3 {
+        height: 70vh !important;
+    }
+
     .mt-200 {
         margin-top: 10px;
     }
@@ -220,10 +238,10 @@
         margin-top: 0px !important;
     }
 
-    .no-m {
+    /* .no-m {
         margin: 0px !important;
         padding: 0px !important;
-    }
+    } */
 
     .f-55 {
         font-size: 30px;
