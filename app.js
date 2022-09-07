@@ -7,6 +7,8 @@ $(document).ready(function () {
       $(".navbar").css("box-shadow", " 0 .125rem .25rem rgba(0,0,0,.075)");
       $(".nav-link").css("color", "black");
       $(".text-home").css("color", "black");
+      $(".dropdown-content").css("background-color","white");
+      $(".navbar-collapse").css("background-color","white");
       $(".navbar-toggler-icons").css("background-image"," url(./images/black.svg) ");
     }
 
@@ -15,7 +17,9 @@ $(document).ready(function () {
       $(".nav-link").css("color", "rgba(255,255,255,.55)");
       $(".text-home").css("color", "black");
       $(".navbar").css("box-shadow", " none");
-      $(".navbar-toggler-icons").css("background-image"," url(./images/white.svg) ")
+      $(".navbar-toggler-icons").css("background-image"," url(./images/white.svg) ");
+      $(".navbar-collapse").css("background-color","rgba(0, 0, 0, 0.781)");
+      $(".dropdown-content").css("background-color","rgba(0, 0, 0, 0.767)");
     }
 
   })
