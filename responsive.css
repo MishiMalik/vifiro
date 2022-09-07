@@ -140,6 +140,16 @@
     .navbar-light .navbar-nav .nav-link {
         color: white !important;
     }
+    .dropdown-content {
+        background-color: rgba(0, 0, 0, 0.767);
+      padding: 10px 20px;
+    }
+    .iframe-nmt{
+        margin-top: -7px;
+    }
+    .video{
+        margin-top: -7px;
+    }
 }
 
 

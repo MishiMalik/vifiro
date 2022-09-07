@@ -269,7 +269,8 @@ Home page
     outline: none !important;
 }
 
-.nav-btn .nav-link {
+.nav-btn .nav-link,
+.nav-btn .nav-btn-link  {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -283,7 +284,8 @@ Home page
     background-color: white;
 }
 
-.nav-btn:hover .nav-link {
+.nav-btn:hover .nav-link,
+.nav-btn:hover .nav-btn-link   {
 
     color: #53B05C !important;
 }
