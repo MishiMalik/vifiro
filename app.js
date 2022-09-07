@@ -8,8 +8,12 @@ $(document).ready(function () {
       $(".nav-link").css("color", "black");
       $(".text-home").css("color", "black");
       $(".dropdown-content").css("background-color","white");
-      $(".navbar-collapse").css("background-color","white");
       $(".navbar-toggler-icons").css("background-image"," url(./images/black.svg) ");
+
+      if ($(window).width() < 991) {
+        $(".navbar-collapse").css("background-color","white");
+     }
+    
     }
 
     else {
@@ -18,9 +22,14 @@ $(document).ready(function () {
       $(".text-home").css("color", "black");
       $(".navbar").css("box-shadow", " none");
       $(".navbar-toggler-icons").css("background-image"," url(./images/white.svg) ");
-      $(".navbar-collapse").css("background-color","rgba(0, 0, 0, 0.781)");
       $(".dropdown-content").css("background-color","rgba(0, 0, 0, 0.767)");
+      if ($(window).width() < 991) {
+        $(".navbar-collapse").css("background-color","rgba(0, 0, 0, 0.781)");
+     }
     }
+
+
 
   })
 })
+
