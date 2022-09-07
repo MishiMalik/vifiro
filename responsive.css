@@ -32,6 +32,16 @@
 }
 
 @media only screen and (max-width:991px) {
+    .home-header{
+        position: relative;
+    }
+    .header-arrow{
+        display: block;
+        position: absolute;
+        bottom: 60px;
+        right: 0px;
+        z-index:99;
+    }
     .f-55 {
         font-size: 40px;
     }
@@ -163,9 +173,9 @@
 
 
 @media only screen and (max-width:479px) {
-    .iframe3 {
-        height: 70vh !important;
-    }
+    /* .iframe3 {
+        height: 0vh !important;
+    } */
 
     .mt-200 {
         margin-top: 10px;
