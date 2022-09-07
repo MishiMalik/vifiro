@@ -41,6 +41,6 @@ $("#arrow1").click(function(){
 
   $("#arrow2").click(function(){
     // any value you need
-    $(document).scrollTop((window.innerHeight)*1.8) 
+    $(document).scrollTop((window.innerHeight)*1.75) 
     
     });
