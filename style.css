@@ -361,9 +361,10 @@ Home page
 
 .last-section {
     background-image: url('./images/Vector\ \(3\).png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     z-index: 1;
+    background-repeat: no-repeat;
 }
 
 .last-text {
@@ -413,7 +414,7 @@ Home page
 
 body::-webkit-scrollbar {
     height: 100%;
-    opacity: 0;
+    opacity: 0 !important;
     position: absolute;
     right: 0;
     top: 0;
@@ -533,7 +534,7 @@ about Us
 }
 
 /* -----------------------------
-benifits
+Benefits
 ---------------------------- */
 .border-bottom {
     border-bottom: 1px solid #E9E9E9;
@@ -561,7 +562,7 @@ benifits
     padding-top: 102px;
 }
 
-.benifits-header {
+.Benefits-header {
     padding-top: 102px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/HORIZON-2.jpg');
     height: 100vh;

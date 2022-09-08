@@ -8,7 +8,7 @@ $(document).ready(function () {
       $(".nav-link").css("color", "black");
       $(".text-home").css("color", "black");
       $(".dropdown-content").css("background-color","white");
-      $(".navbar-toggler-icons").css("background-image"," url(./images/black.svg) ");
+      // $(".navbar-toggler-icons").css("background-image"," url(./images/black.svg) ");
 
       if ($(window).width() < 991) {
         $(".navbar-collapse").css("background-color","white");
@@ -21,7 +21,7 @@ $(document).ready(function () {
       $(".nav-link").css("color", "rgba(255,255,255,.55)");
       $(".text-home").css("color", "black");
       $(".navbar").css("box-shadow", " none");
-      $(".navbar-toggler-icons").css("background-image"," url(./images/white.svg) ");
+      // $(".navbar-toggler-icons").css("background-image"," url(./images/white.svg) ");
       $(".dropdown-content").css("background-color","rgba(0, 0, 0, 0.767)");
       if ($(window).width() < 991) {
         $(".navbar-collapse").css("background-color","rgba(0, 0, 0, 0.781)");

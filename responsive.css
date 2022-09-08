@@ -172,6 +172,11 @@
     .video{
         margin-top: -7px;
     }
+    .last-section {
+        background-size:cover;
+        background-position: bottom;
+      
+    }
 }
 
 
