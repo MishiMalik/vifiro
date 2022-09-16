@@ -1,5 +1,4 @@
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Playfair Display', serif; */
+
 body {
     padding: 0px;
     margin: 0px;
@@ -8,7 +7,37 @@ body {
     /* background-color: rgba(229, 229, 229, 0.209); */
     background-color: white;
     /* padding-top: 102px; */
+    /* overflow-y: hidden; */
 }
+body::-webkit-scrollbar {
+    height: 100%;
+    opacity: 0 !important;
+    transform-origin: center right;
+    background-color: transparent !important;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar * {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 10px;
+    cursor: -webkit-grab;
+    cursor: grab;
+    margin: 2px;
+    opacity: .5;
+    
+    width: 10px;
+   
+} 
+
+
 
 /* -----------------------------------
 Fonts styles 
@@ -361,10 +390,11 @@ Home page
 
 .last-section {
     background-image: url('./images/Vector\ \(3\).png');
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position:center;
     z-index: 1;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 .last-text {
@@ -411,55 +441,6 @@ Home page
     color: #848484;
 
 }
-
-body::-webkit-scrollbar {
-    height: 100%;
-    opacity: 0 !important;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transform-origin: center right;
-    background-color: transparent !important;
-    width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-::-webkit-scrollbar * {
-    background: transparent;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #000;
-    border-radius: 10px;
-    cursor: -webkit-grab;
-    cursor: grab;
-    margin: 2px;
-    opacity: .5;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 10px;
-}
-
-/* ::-webkit-scrollbar {
-    background-color: transparent;
-    width: 10px;
-}
-* {
-    scrollbar-width: thin;
-    scrollbar-color:red;
-}
-*::-webkit-scrollbar-track {
-    background-color: transparent !important;
-}
-*::-webkit-scrollbar-thumb {
-    background-color: blue ;
-    border-radius: 20px;
-    border: 3px solid transparent;
-} */
 
 
 
@@ -648,7 +629,7 @@ Benefits
 }
 
 .try-on-header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/Screenshot\ \(5\)\ 1.png');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/appearl-try-on.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -685,4 +666,9 @@ url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3
 
 .header-arrow{
     display: none;
+}
+.benifit-icon{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }

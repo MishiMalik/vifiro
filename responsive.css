@@ -181,9 +181,14 @@
         margin-top: 0px !important;
     }
 }
-
+@media only screen and (max-width:768px){
+    .benifit-icon{
+        margin: 15px 0px;
+    }
+}
 
 @media only screen and (max-width:479px) {
+    
     /* .iframe3 {
         height: 0vh !important;
     } */
