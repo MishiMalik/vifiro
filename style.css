@@ -9,7 +9,7 @@ body {
     /* padding-top: 102px; */
     /* overflow-y: hidden; */
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     height: 100%;
     opacity: 0 !important;
     transform-origin: center right;
@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
     
     width: 10px;
    
-} 
+}  */
 
 
 
