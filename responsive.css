@@ -32,23 +32,27 @@
 }
 
 @media only screen and (max-width:991px) {
-    .home-header{
+    .home-header {
         position: relative;
     }
-    .header-arrow{
+
+    .header-arrow {
         display: block;
         position: absolute;
         bottom: 60px;
         right: 0px;
-        z-index:99;
+        z-index: 99;
     }
+
     .f-55 {
         font-size: 40px;
     }
+
     .iframe3 {
         height: 80vh !important;
         width: 100%;
     }
+
     .header-text {
         margin-top: 10px;
     }
@@ -149,46 +153,55 @@
         width: 100%;
         margin-left: 0px !important;
     }
-   
-   .nav-link {
+
+    .nav-link {
         color: white;
     }
-    .text-home{
-        color:black !important;
-       }
-    .dropdown-content {
-      background-color: rgba(0, 0, 0, 0.767) ;
-      padding: 10px 20px;
+
+    .text-home {
+        color: black !important;
     }
-    .dropdown-content-home{
+
+    .dropdown-content {
+        background-color: rgba(0, 0, 0, 0.767);
+        padding: 10px 20px;
+    }
+
+    .dropdown-content-home {
         background-color: white !important;
     }
-    .header-text .text{
+
+    .header-text .text {
         text-align: center;
     }
-    .iframe-nmt{
+
+    .iframe-nmt {
         margin-top: -7px;
     }
-    .video{
+
+    .video {
         margin-top: -7px;
     }
+
     .last-section {
-        background-size:cover;
+        background-size: cover;
         background-position: bottom;
-      
+
     }
-    .text-copy{
+
+    .text-copy {
         margin-top: 0px !important;
     }
 }
-@media only screen and (max-width:768px){
-    .benifit-icon{
+
+@media only screen and (max-width:768px) {
+    .benifit-icon {
         margin: 15px 0px;
     }
 }
 
 @media only screen and (max-width:479px) {
-    
+
     /* .iframe3 {
         height: 0vh !important;
     } */
