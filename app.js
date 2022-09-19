@@ -40,12 +40,18 @@ $(document).ready(function () {
 
 $("#arrow1").click(function(){
   // any value you need
-  $(document).scrollTop((window.innerHeight)*0.8) 
+  $(document).scrollTop((window.innerHeight)*0.85) 
 
   });
 
   $("#arrow2").click(function(){
     // any value you need
-    $(document).scrollTop((window.innerHeight)*1.75) 
+    $(document).scrollTop((window.innerHeight)*1.60) 
     
     });
+
+    $(".solutions").click(function(){
+      // any value you need
+      $(document).scrollTop((window.innerHeight)*0.85) 
+    
+      });

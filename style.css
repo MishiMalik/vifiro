@@ -628,7 +628,7 @@ Benefits
 }
 
 .try-on-header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/appearl-try-on.jpg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/apearl-try-on.jpg');
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -672,4 +672,20 @@ url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3
     overflow: hidden;
     display: flex;
     justify-content: center;
+}
+.benifits-body{
+    background-color: #FAFAFA !important;
+}
+a:hover{
+color:#53B05C;
+}
+a{
+    text-decoration: none !important;
+    }
+
+.arrow-down{
+    height: 90px;
+    width: 90px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
 }
