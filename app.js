@@ -6,7 +6,7 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    console.log(scroll);
+  
     if (scroll > 1) {
       $(".navbar").css("background", "white");
       $(".navbar").css("box-shadow", " 0 .125rem .25rem rgba(0,0,0,.075)");
