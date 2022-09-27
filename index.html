@@ -395,13 +395,16 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
     <script>
-        $('.home-header').append(` <iframe src="https://vifiro.netlify.app/Apparel.html" class="iframe3  z-70">
+window.addEventListener("load", function(){
+    $('.home-header').append(` <iframe src="https://vifiro.netlify.app/Apparel.html" class="iframe3  z-70">
                         </iframe>                     
         `);
 
         $('.home-header2').append(` <iframe src="https://vifiro.netlify.app/footwear.html" class="iframe3  z-70 iframe-nmt">
                         </iframe>                       
         `);
+});
+       
 
 
 
