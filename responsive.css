@@ -35,6 +35,9 @@
     .home-header {
         position: relative;
     }
+    .home-header2 {
+        position: relative;
+    }
 
     .header-arrow {
         display: block;
