@@ -201,6 +201,10 @@
     .benifit-icon {
         margin: 15px 0px;
     }
+    .video{
+        height:50vh;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:479px) {
