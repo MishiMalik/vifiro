@@ -202,7 +202,8 @@
         margin: 15px 0px;
     }
     .video{
-        height:50vh;
+        /* height:50vh; */
+        max-width: unset;
         width: 100%;
     }
 }
